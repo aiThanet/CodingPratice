@@ -7,6 +7,8 @@ let s <= SUM
 for each coin_i <= s
    Let m = minimum number of coins for s-coin_i
    minimum of coins to sum s = min(m+1,current minimum of coins to sum s)
+
+   #additional: which coins use to total the sum
 ```
 
 ### Solution 2:
