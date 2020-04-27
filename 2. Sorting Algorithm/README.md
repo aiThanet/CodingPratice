@@ -16,7 +16,10 @@ A sorting algorithm is said to be stable if two objects with equal keys appear i
 ## Time and space complexity
 ![time&spaceComplexity](time.png)
 
-1. QuickSort
-   `Dynamic Programming`
-   - Minimun number of coins for sum
-   - Number of ways to make the change
+1. Selection Sort
+Sort an array by repeatedly finding the minimum element from unsorted part and putting it at the beginning.
+- Time Complexity: O(n<sup>2</sup>)
+- Auxiliary Space: O(1)
+- O(n) swaps, useful when memory write is a costly operation
+- Stable
+- In-place
