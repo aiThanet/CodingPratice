@@ -16,7 +16,7 @@ A sorting algorithm is said to be stable if two objects with equal keys appear i
 ## Time and space complexity
 ![time&spaceComplexity](time.png)
 
-1. Selection Sort
+1. `Selection Sort`
 Sort an array by repeatedly finding the minimum element from unsorted part and putting it at the beginning.
 - Time Complexity: O(n<sup>2</sup>)
 - Auxiliary Space: O(1)
